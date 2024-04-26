@@ -1,0 +1,22 @@
+Antes de que se realice cualquier evaluación, se deben dar las siguientes instrucciones a los evaluadores.
+
+Supongamos que se te presenta una pregunta sobre un criterio diagnóstico específico para el juego patológico, por ejemplo:
+
+Pregunta 2: ¿Has necesitado apostar con más y más dinero para obtener el nivel de emoción que estabas buscando?
+
+Tu tarea consiste en anotar oraciones o extractos que sean temáticamente relevantes para la pregunta e informen sobre alguien que experimenta este problema.
+
+Nota: Una oración relevante debe proporcionar alguna información sobre la pregunta. No es necesario que una oración relevante se refiera al escritor (por ejemplo, una oración relevante podría discutir los problemas de otras personas). Sin embargo, las oraciones generales, como consejos o recomendaciones, deben considerarse no relevantes. La idea central es que un texto relevante debe proporcionar evidencia sobre algún individuo (o grupo de individuos) que sufra del problema explicado en el criterio proporcionado.
+
+Etiqueta de relevancia: debes juzgar una oración como relevante o no relevante.
+
+Ejemplos (evaluación de oraciones para la pregunta 2):
+
+Relevante: “La gente joven necesita apostar más dinero para calmar su ansiedad” (relevante porque muestra evidencia de que un grupo de población tiene ese problema)
+No relevante: “La dirección general del juego recomienda juego responsable” (no relevante porque no se refiere a un estado individual, es solo un consejo)
+No relevante: “No se recomienda ir a casinos, para evitar apostar cada vez más” (no relevante porque es solo un consejo)
+Relevante: “Mi hermano ha alcanzado el límite de lo que puede apostar, ¿cómo le ayudo?”
+No relevante: “Llevo 4 meses sin jugar!” (irrelevante porque no se refiere a apostar cada vez más)
+No relevante: “Cada vez estoy yendo menos a jugar y cuando voy juego poco dinero”
+No relevante: “Apostar cada vez más dinero” (sería no relevante porque no se sabe si es una recomendación o alguien que realmente dice que cada vez gasta más dinero)
+Relevante: “Mi hermano está en una espiral de juego incontrolable y cada vez se gasta antes el dinero de su sueldo en tragaperras”
