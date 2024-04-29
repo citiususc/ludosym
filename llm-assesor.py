@@ -1,6 +1,7 @@
 import json
 import openai
 import tiktoken
+import csv
 
 openai.api_key = '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'
 model = 'gpt-4'
@@ -31,6 +32,7 @@ def assess(prompt:str, question:str, sentence:str)->str:
                 max_tokens=3,
     )
     print(response.choices[0].message.content)
+    return response.choices[0].message.content
 
 if __name__=="__main__":
     pool = load_json('./dataset/k30/k30_pools.json')
@@ -40,6 +42,7 @@ if __name__=="__main__":
 
     for question_id in pool.keys():
         for sentence_id in pool[question_id]:
-            assess(prompt, questions[question_id], collection[str(sentence_id)])
-            break
-        break
+            label = assess(prompt, questions[question_id], collection[str(sentence_id)])
+            with open('./outputs/'+model+'.csv', 'a', newline='') as file:
+                writer = csv.writer(file)
+                writer.writerow([question_id, sentence_id, label])
