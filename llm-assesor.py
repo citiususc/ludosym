@@ -17,7 +17,7 @@ def load_prompt(fn:str)->str:
         return prompt_file.read()
 
 def assess(prompt:str, question:str, sentence:str)->str:
-    prompt = prompt + f'\nPregunta: {question}\nOración: {sentence}\nEtiqueta:'
+    prompt = prompt + f'\n\n\nPregunta: {question}\nOración a evaluar como relevante para la pregunta anterior: {sentence}\nEtiqueta:'
     rel_token, irrel_token = enc.encode('Relevante')[0], enc.encode('No relevante')[0]
     print(prompt)
     response = openai.chat.completions.create(
@@ -44,6 +44,6 @@ if __name__=="__main__":
         if question_id=="8" or question_id=="9":
             for sentence_id in pool[question_id]:
                 label = assess(prompt, questions[question_id], collection[str(sentence_id)])
-                with open('./outputs/'+model+'.csv', 'a', newline='') as file:
+                with open('./outputs/'+model+'-2.csv', 'a', newline='') as file:
                     writer = csv.writer(file)
                     writer.writerow([question_id, sentence_id, label])
