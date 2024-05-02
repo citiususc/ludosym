@@ -41,8 +41,9 @@ if __name__=="__main__":
     prompt = load_prompt('./res/labelling_prompt.txt')
 
     for question_id in pool.keys():
-        for sentence_id in pool[question_id]:
-            label = assess(prompt, questions[question_id], collection[str(sentence_id)])
-            with open('./outputs/'+model+'.csv', 'a', newline='') as file:
-                writer = csv.writer(file)
-                writer.writerow([question_id, sentence_id, label])
+        if question_id=="8" or question_id=="9":
+            for sentence_id in pool[question_id]:
+                label = assess(prompt, questions[question_id], collection[str(sentence_id)])
+                with open('./outputs/'+model+'.csv', 'a', newline='') as file:
+                    writer = csv.writer(file)
+                    writer.writerow([question_id, sentence_id, label])
