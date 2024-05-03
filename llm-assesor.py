@@ -17,7 +17,7 @@ def load_prompt(fn:str)->str:
         return prompt_file.read()
 
 def assess(prompt:str, question:str, sentence:str)->str:
-    prompt = prompt + f'\n\n\nPregunta: {question}\nOración a evaluar como relevante para la pregunta anterior: {sentence}\nEtiqueta:'
+    prompt = prompt + f'\nPregunta: {question}\nOración: {sentence}\nEtiqueta:'
     rel_token, irrel_token = enc.encode('Relevante')[0], enc.encode('No relevante')[0]
     print(prompt)
     response = openai.chat.completions.create(

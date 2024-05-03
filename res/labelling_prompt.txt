@@ -1,27 +1,46 @@
 Supongamos que se te presenta una pregunta sobre un criterio diagnóstico específico para el juego patológico.
 Tu tarea consiste en anotar oraciones o extractos que sean temáticamente relevantes para la pregunta e informen sobre alguien que experimenta este problema.
-
 Nota: Una oración relevante debe proporcionar alguna información sobre la pregunta. No es necesario que una oración relevante se refiera al escritor (por ejemplo, una oración relevante podría discutir los problemas de otras personas). Sin embargo, las oraciones generales, como consejos o recomendaciones, deben considerarse no relevantes. La idea central es que un texto relevante debe proporcionar evidencia sobre algún individuo (o grupo de individuos) que sufra del problema explicado en el criterio proporcionado.
-
 Etiqueta de relevancia: debes juzgar una oración como relevante o no relevante.
 
 Ejemplos (evaluación de oraciones):
 
 Pregunta: ¿Has necesitado apostar con más y más dinero para obtener el nivel de emoción que estabas buscando?
 Oración: La gente joven necesita apostar más dinero para calmar su ansiedad
-Explicación: Muestra evidencia de que un grupo de población tiene ese problema
 Etiqueta: Relevante 
+Explicación: Muestra evidencia de que un grupo de población tiene ese problema
 
-Relevante: “” (relevante porque )
-No relevante: “La dirección general del juego recomienda juego responsable” (no relevante porque no se refiere a un estado individual, es solo un consejo)
-No relevante: “No se recomienda ir a casinos, para evitar apostar cada vez más” (no relevante porque es solo un consejo)
-Relevante: “Mi hermano ha alcanzado el límite de lo que puede apostar, ¿cómo le ayudo?”
-No relevante: “Llevo 4 meses sin jugar!” (irrelevante porque no se refiere a apostar cada vez más)
-No relevante: “Cada vez estoy yendo menos a jugar y cuando voy juego poco dinero”
-No relevante: “Apostar cada vez más dinero” (sería no relevante porque no se sabe si es una recomendación o alguien que realmente dice que cada vez gasta más dinero)
-Relevante: “Mi hermano está en una espiral de juego incontrolable y cada vez se gasta antes el dinero de su sueldo en tragaperras”
+Pregunta: ¿Has necesitado apostar con más y más dinero para obtener el nivel de emoción que estabas buscando?
+Oración: La dirección general del juego recomienda juego responsable
+Etiqueta: No relevante 
+Explicación: No se refiere a un estado individual, es solo un consejo
 
-Pregunta: xxxxxx
-Oración: xxxxxx
+Pregunta: ¿Has necesitado apostar con más y más dinero para obtener el nivel de emoción que estabas buscando?
+Oración: No se recomienda ir a casinos, para evitar apostar cada vez más
+Etiqueta: No relevante 
+Explicación: Es solo un consejo
+
+Pregunta: ¿Has necesitado apostar con más y más dinero para obtener el nivel de emoción que estabas buscando?
+Oración: Mi hermano ha alcanzado el límite de lo que puede apostar, ¿cómo le ayudo?
+Etiqueta: Relevante
 Explicación: 
-Etiqueta:
+
+Pregunta: ¿Has necesitado apostar con más y más dinero para obtener el nivel de emoción que estabas buscando?
+Oración: Llevo 4 meses sin jugar
+Etiqueta: No relevante
+Explicación: No se refiere a apostar cada vez más
+
+Pregunta: ¿Has necesitado apostar con más y más dinero para obtener el nivel de emoción que estabas buscando?
+Oración: Cada vez estoy yendo menos a jugar y cuando voy juego poco dinero
+Etiqueta: No relevante
+Explicación: 
+
+Pregunta: ¿Has necesitado apostar con más y más dinero para obtener el nivel de emoción que estabas buscando?
+Oración: Apostar cada vez más dinero
+Etiqueta: No relevante
+Explicación: No se sabe si es una recomendación o alguien que realmente dice que cada vez gasta más dinero
+
+Pregunta: ¿Has necesitado apostar con más y más dinero para obtener el nivel de emoción que estabas buscando?
+Oración: Mi hermano está en una espiral de juego incontrolable y cada vez se gasta antes el dinero de su sueldo en tragaperras
+Etiqueta: Relevante
+Explicación: 
