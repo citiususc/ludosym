@@ -44,7 +44,7 @@ If you use this resource, please cite:
     title = "Analyzing Gambling Addictions: A Spanish Corpus for Understanding Pathological Behavior",
     author = "Couto-Pintos, Manuel and
               Fernández-Pichel, Marcos and
-              Ezra Aragón, Mario and
-              Losada, David",
+               Aragón, Mario Ezra and
+              Losada, David E.",
     booktitle = "Findings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
 }
