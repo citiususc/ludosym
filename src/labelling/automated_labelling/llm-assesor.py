@@ -3,7 +3,7 @@ import openai
 import tiktoken
 import csv
 
-openai.api_key = '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'
+openai.api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 model = 'gpt-4'
 enc = tiktoken.encoding_for_model(model)
 
