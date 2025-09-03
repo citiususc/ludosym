@@ -10,7 +10,7 @@ This repository accompanies the paper:
 The main contribution of this work is a **Spanish sentence retrieval dataset** focused on symptoms associated with pathological gambling.
 
 - **Corpus:** `resources/dataset/corpus.jsonl`  
-- **Queries & Qrels:** also available in the same directory.  
+- **Queries & Qrels:** also available in the same directory. Since 4 assessors were employed, the majority agreement is considered when at least two authors consider the sentence relevant. 
 - All files follow the [BEIR](https://github.com/beir-cellar/beir) compatible format, enabling easy use with standard baselines (see Section 4 of the paper).  
 
 Additionally, a **subfolder with pools** is provided, containing the material used by both human annotators and LLMs for dataset labeling.
@@ -22,7 +22,7 @@ Additionally, a **subfolder with pools** is provided, containing the material us
 The `src` folder is structured as follows:
 
 - **`train/`** → Training scripts for our domain-adapted **ludoBETO** model.  
-- **`labelling/`** → Statistics and analysis of human vs. automatic label generation.
+- **`labelling/`** → Statistics and analysis of human vs. automatic label generation. "David Gallego" user is the trained psychologist.
 
 ---
 
